@@ -1,0 +1,30 @@
+.subtitle{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 3px;
+}
+.inputs select{
+    width: 350px;
+    height: 35px;
+  
+}
+.inputs{
+    margin-left: 80px;
+}
+.card{
+    margin-top: 50px;
+}
+.subtitle hr{
+    background-color:#dc3545;
+    height: 2px;
+}
+.slt{
+    letter-spacing: 4px;
+}
+.bbs{
+    letter-spacing: 4px;
+}
+.cd{
+    letter-spacing: 4px;
+}

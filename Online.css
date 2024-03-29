@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: white;
+}
+.subtitle{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 3px;
+    
+}
+.line{
+    color: #cc0001;
+    border: 50px solid ;
+}
+.payment{
+    margin-left: 70px;
+}
+.Sel{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    letter-spacing: 4px;
+}
+.pay-sub1{
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+.pay-sub1 input{
+    width: 250px;
+    border-radius: 1px;
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.ad{
+    height: 100px;
+    letter-spacing: 4px;
+}
+.as{
+    letter-spacing: 4px;
+}
+.t1{
+    width: 300px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+.terms{
+    margin-top: 80px;
+}
+
+ .terms {
+    width: 100%;
+    float: left;
+    padding-bottom: 4px;
+    margin-left: 100px;
+    letter-spacing: 4px;
+}
+.online-area{
+    border: ridge;
+}
+.acceptance-terms{
+    width: 100%;
+    float: left;
+    padding-bottom: 4px;
+}
+.cd{
+    margin-left: 100px;
+}
+.cd button{
+    background-color:#cc0001;
+    color: white;
+    border: none;
+    padding: 4px;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 8px 0px grey;
+}
+.sp{
+    letter-spacing: 3px;
+}

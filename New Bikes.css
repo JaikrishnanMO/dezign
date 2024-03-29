@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: white;
+}
+.subtitle{
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+    letter-spacing: 3px;
+    
+}
+.subtitle hr{
+    background-color: #dc3545;
+    height: 2px;
+}
+.Bikes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+ margin-left: 30px;
+ margin-top: 30px;
+ 
+}
+.price{
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-text{
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+.card:hover{
+    /* box-shadow: 10px 10px 10px 10px ; */
+    transition: .5s;
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0px 0px 8px 0px black;
+  border-radius: 4px;
+}
+@media(max-width: 1880px){
+    .Bikes{
+       display: flex;
+       justify-content: center;
+       
+    }
+}
